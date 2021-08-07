@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AB3E80A26BF0AE400DD04D7 /* DotGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB3E80926BF0AE400DD04D7 /* DotGraphView.swift */; };
 		5ADACB8E26BEE1A7007C6DA9 /* GraphKit_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADACB8D26BEE1A7007C6DA9 /* GraphKit_SwiftUIApp.swift */; };
 		5ADACB9026BEE1A7007C6DA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADACB8F26BEE1A7007C6DA9 /* ContentView.swift */; };
 		5ADACB9226BEE1A8007C6DA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ADACB9126BEE1A8007C6DA9 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5AB3E80926BF0AE400DD04D7 /* DotGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotGraphView.swift; sourceTree = "<group>"; };
 		5ADACB8A26BEE1A7007C6DA9 /* GraphKit_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphKit_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ADACB8D26BEE1A7007C6DA9 /* GraphKit_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphKit_SwiftUIApp.swift; sourceTree = "<group>"; };
 		5ADACB8F26BEE1A7007C6DA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				5ADACB8D26BEE1A7007C6DA9 /* GraphKit_SwiftUIApp.swift */,
 				5ADACB8F26BEE1A7007C6DA9 /* ContentView.swift */,
+				5AB3E80926BF0AE400DD04D7 /* DotGraphView.swift */,
 				5ADACB9126BEE1A8007C6DA9 /* Assets.xcassets */,
 				5ADACB9626BEE1A8007C6DA9 /* Info.plist */,
 				5ADACB9326BEE1A8007C6DA9 /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AB3E80A26BF0AE400DD04D7 /* DotGraphView.swift in Sources */,
 				5ADACB9026BEE1A7007C6DA9 /* ContentView.swift in Sources */,
 				5ADACB8E26BEE1A7007C6DA9 /* GraphKit_SwiftUIApp.swift in Sources */,
 			);
