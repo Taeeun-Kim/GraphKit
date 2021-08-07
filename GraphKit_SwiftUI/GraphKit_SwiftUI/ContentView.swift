@@ -12,6 +12,7 @@ struct ContentView: View {
         HStack {
             ForEach(1...10, id: \.self) { row in
                 VStack {
+                    
                     CircleRow()
                 }
             }
