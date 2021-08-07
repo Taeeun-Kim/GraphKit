@@ -33,6 +33,8 @@ We want to use various graphs easily.
 
 - DotGraphView
 
+<img align="left" alt="Swift" width="500px" src="img/DotView.png"/>
+
 # Contributing
 
 SwiftUIX welcomes contributions in the form of GitHub issues and pull-requests.
