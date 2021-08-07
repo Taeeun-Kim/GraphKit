@@ -33,7 +33,7 @@ We want to use various graphs easily.
 
 - DotGraphView
 
-<img align="left" alt="Swift" width="500px" src="img/DotView.png"/>
+<img align="center" alt="Swift" width="500px" src="img/DotView.png"/>
 
 # Contributing
 
