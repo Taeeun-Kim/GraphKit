@@ -1,6 +1,6 @@
 # GraphKit: A collection of graphs in SwiftUI
 
-![](https://img.shields.io/badge/-Swift-orange) [![GitHub stars](https://img.shields.io/github/stars/Taeeun-Kim/GraphKit)](https://github.com/Taeeun-Kim/GraphKit/stargazers) [![GitHub license](https://img.shields.io/github/license/Taeeun-Kim/GraphKit)](https://github.com/Taeeun-Kim/GraphKit/blob/main/LICENSE)
+![](https://img.shields.io/badge/-Swift-orange) [![GitHub stars](https://img.shields.io/github/stars/Taeeun-Kim/GraphKit)](https://github.com/Taeeun-Kim/GraphKit/stargazers) [![GitHub forks](https://img.shields.io/github/forks/Taeeun-Kim/GraphKit)](https://github.com/Taeeun-Kim/GraphKit/network) [![GitHub issues](https://img.shields.io/github/issues/Taeeun-Kim/GraphKit)](https://github.com/Taeeun-Kim/GraphKit/issues) [![GitHub license](https://img.shields.io/github/license/Taeeun-Kim/GraphKit)](https://github.com/Taeeun-Kim/GraphKit/blob/main/LICENSE)
 
 A collection of graph templates available in SwiftUI.
 
