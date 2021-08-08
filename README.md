@@ -49,4 +49,4 @@ GraphKit is and will always be free and open. If you're reliant on GraphKit for 
 
 # Credits
 
-GraphKit is a project of [@Taeeun_Kim](https://github.com/Taeeun-Kim).
+GraphKit is a project of [@Taeeun_Kim](https://github.com/Taeeun-Kim) and [@maxRN](https://github.com/maxRN).
