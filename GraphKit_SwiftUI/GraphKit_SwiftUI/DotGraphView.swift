@@ -7,13 +7,35 @@
 
 import SwiftUI
 
+struct Group {
+    let percent: Int
+    let color: Color
+}
+
+struct CustomCircle: View {
+    var body: some View {
+        // size of circle
+        Circle()
+            .frame(width: 20, height: 20)
+    }
+}
+
 struct DotGraphView: View {
-    let data = 1...100 // total number of circles
-    let group1 = 1...15
-    let group2 = 1...25
-    let group3 = 1...35
-    // group4: The last group is calculated automatically.
+    // Total number of circles
+    private let totalDots = 1...100
+    private var groups = [Group]()
     
+    // Init groups
+    // The sum of the group's percent must be equal to that `totalDots`
+    // e.g. 15 + 25 + 35 + 25 = 100
+    init() {
+        groups.append(Group(percent: 15, color: Color.red))
+        groups.append(Group(percent: 25, color: Color.blue))
+        groups.append(Group(percent: 35, color: Color.yellow))
+        groups.append(Group(percent: 25, color: Color.gray))
+    }
+    
+    // Number of columns
     let columns = [
         GridItem(.flexible()),
         GridItem(.flexible()),
@@ -30,65 +52,47 @@ struct DotGraphView: View {
     var body: some View {
         
         VStack {
-            /*
-             For the sum, except for the last group
-             If there are 4 groups, only until sum1to3
-             */
-            let sum1to2 = group1.count + group2.count
-            let sum1to3 = group1.count + group2.count + group3.count
             
+            // Top HStack UI
             HStack {
                 CustomCircle()
-                    .foregroundColor(.red)
-                Text("Group1 \(group1.count)% ")
+                    .foregroundColor(groups[0].color)
+                Text("Group1 \(groups[0].percent)% ")
                     .font(.caption)
                 
                 CustomCircle()
-                    .foregroundColor(.blue)
-                Text("Group2 \(group2.count)%")
+                    .foregroundColor(groups[1].color)
+                Text("Group2 \(groups[1].percent)%")
                     .font(.caption)
             }
             
             HStack {
                 CustomCircle()
-                    .foregroundColor(.yellow)
-                Text("Group3 \(group3.count)%")
+                    .foregroundColor(groups[2].color)
+                Text("Group3 \(groups[2].percent)%")
                     .font(.caption)
                 
                 CustomCircle()
-                    .foregroundColor(.gray)
-                Text("Group4 \(100-sum1to3)%")
+                    .foregroundColor(groups[3].color)
+                Text("Group4 \(groups[3].percent)%")
                     .font(.caption)
             }
             .padding()
             
+            // DotGraph
+            // Changeable padding and spacing
             LazyVGrid(columns: columns, spacing: 15) {
-                ForEach(data, id: \.self) { item in
-                    if group1.count >= item {
-                        CustomCircle()
-                            .foregroundColor(.red)
-                    } else if group1.count < item && sum1to2 >= item {
-                        CustomCircle()
-                            .foregroundColor(.blue)
-                    } else if sum1to2 < item && sum1to3 >= item {
-                        CustomCircle()
-                            .foregroundColor(.yellow)
-                    } else { // group4
-                        CustomCircle()
-                            .foregroundColor(.gray)
+                ForEach(groups.indices, id: \.self) { group in
+                    ForEach(totalDots, id: \.self) { dot in
+                        if dot <= groups[group].percent {
+                            CustomCircle()
+                                .foregroundColor(groups[group].color)
+                        }
                     }
                 }
             }
             .padding()
         }
-    }
-}
-
-struct CustomCircle: View {
-    var body: some View {
-        // size of circle
-        Circle()
-            .frame(width: 20, height: 20)
     }
 }
 
