@@ -13,10 +13,14 @@ A collection of graph templates available in SwiftUI.
 - [Support](#support)
 - [Credits](#credits)
 
+<br/>
+
 ## Why
 
 The goal is simple.
 We want to use various graphs easily.
+
+<br/>
 
 ## Requirements
 
@@ -26,12 +30,18 @@ We want to use various graphs easily.
 - Swift 5.3
 - Xcode 12.4
 
-**Web**
+<!-- **Web**
+- 1
+- 2 -->
+
+<br/>
 
 ## How To Use
 
 - It is possible to modify and use each graph view independently without installing additional packages
 - Usage is explained in comments on each GraphView.
+
+<br/>
 
 ## Contents
 
@@ -39,19 +49,27 @@ We want to use various graphs easily.
 <p>
 <img align="center" alt="Swift" width="200px" src="img/DotView.png"/>
 <img align="center" alt="Swift" width="200px" src="img/DotView_React.png"/>
-<p/>
-  
+</p>
+
+<br/>
+
 ## Contributing
 
 GraphKit welcomes contributions in the form of GitHub issues and pull-requests.
+
+<br/>
 
 ## License
 
 GraphKit is licensed under the [MIT License](https://vmanot.mit-license.org).
 
+<br/>
+
 ## Support
 
 GraphKit is and will always be free and open. If you're reliant on GraphKit for your app/project and would like to see it grow, consider contributing/donating as way to help.
+
+<br/>
 
 ## Credits
 
