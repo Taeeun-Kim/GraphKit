@@ -36,10 +36,11 @@ We want to use various graphs easily.
 ## Contents
 
 - **DotGraphView**: SwiftUI, React
-
+<p>
 <img align="center" alt="Swift" width="200px" src="img/DotView.png"/>
 <img align="center" alt="Swift" width="200px" src="img/DotView_React.png"/>
-
+<p/>
+  
 ## Contributing
 
 GraphKit welcomes contributions in the form of GitHub issues and pull-requests.
