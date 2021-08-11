@@ -1,12 +1,9 @@
-# GraphKit: A collection of graphs in SwiftUI
+# DotGraphView: A customView in Android
 
-![](https://img.shields.io/badge/-Swift-orange) [![GitHub stars](https://img.shields.io/github/stars/Taeeun-Kim/GraphKit)](https://github.com/Taeeun-Kim/GraphKit/stargazers) [![GitHub forks](https://img.shields.io/github/forks/Taeeun-Kim/GraphKit)](https://github.com/Taeeun-Kim/GraphKit/network) [![GitHub issues](https://img.shields.io/github/issues/Taeeun-Kim/GraphKit)](https://github.com/Taeeun-Kim/GraphKit/issues) [![GitHub license](https://img.shields.io/github/license/Taeeun-Kim/GraphKit)](https://github.com/Taeeun-Kim/GraphKit/blob/main/LICENSE)
+A customView of Dotgraph templates available in Android.
 
-A collection of graph templates available in SwiftUI.
-
-- [Why](#why)
-- [Requirements](#requirements)
 - [How To Use](#howToUse)
+- [gege]
 - [Contents](#contents)
 - [Contributing](#contributing)
 - [License](#license)
@@ -14,25 +11,6 @@ A collection of graph templates available in SwiftUI.
 - [Credits](#credits)
 
 <br/>
-
-## Why
-
-The goal is simple.
-We want to use various graphs easily.
-
-<br/>
-
-## Requirements
-
-**iOS**
-
-- iOS 14.0, macOS 11.0, Mac 14.0, tvOS 14.0
-- Swift 5.3
-- Xcode 12.4
-
-<!-- **Web**
-- 1
-- 2 -->
 
 <br/>
 
@@ -45,10 +23,9 @@ We want to use various graphs easily.
 
 ## Contents
 
-- **DotGraphView**: SwiftUI, React
+- **DotGraphView**: **Android**
 <p>
-<img align="center" alt="Swift" width="200px" src="img/DotView.png"/>
-<img align="center" alt="Swift" width="200px" src="img/DotView_React.png"/>
+<img align="center" alt="Swift" width="200px" src="img/DotGraph.png"/>
 </p>
 
 <br/>
@@ -59,18 +36,8 @@ GraphKit welcomes contributions in the form of GitHub issues and pull-requests.
 
 <br/>
 
-## License
-
-GraphKit is licensed under the [MIT License](https://vmanot.mit-license.org).
-
-<br/>
-
 ## Support
 
-GraphKit is and will always be free and open. If you're reliant on GraphKit for your app/project and would like to see it grow, consider contributing/donating as way to help.
+DotGraphView is and will always be free and open. If you're reliant on GraphKit for your app/project and would like to see it grow, consider contributing/donating as way to help.
 
 <br/>
-
-## Credits
-
-GraphKit is a project of [@Taeeun_Kim](https://github.com/Taeeun-Kim) and [@maxRN](https://github.com/maxRN) and [@DainPark-web](https://github.com/DainPark-web)
