@@ -22,7 +22,7 @@ A customView of Dotgraph templates available in Android.
 
 - **DotGraphView**: **Android**
 <p>
-<img align="center" alt="Android" width="200px" src="img/DotGraph.png"/>
+<img align="center" alt="Android" width="200px" src="img/DotGraph.PNG"/>
 </p>
 
 <br/>
