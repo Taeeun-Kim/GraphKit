@@ -18,7 +18,8 @@ A collection of graph templates available in SwiftUI.
 ## Why
 
 The goal is simple.
-We want to use various graphs easily.
+We want to use various graphs easily
+-> **Reusable**
 
 <br/>
 
@@ -45,10 +46,11 @@ We want to use various graphs easily.
 
 ## Contents
 
-- **DotGraphView**: SwiftUI, React
+- **DotGraphView**: SwiftUI, React, Android
 <p>
 <img align="center" alt="Swift" width="200px" src="img/DotView.png"/>
 <img align="center" alt="Swift" width="200px" src="img/DotView_React.png"/>
+<img align="center" alt="Swift" width="150px" src="img/DotView_Android.png"/>
 </p>
 
 <br/>
@@ -73,4 +75,4 @@ GraphKit is and will always be free and open. If you're reliant on GraphKit for 
 
 ## Credits
 
-GraphKit is a project of [@Taeeun_Kim](https://github.com/Taeeun-Kim) and [@maxRN](https://github.com/maxRN) and [@DainPark-web](https://github.com/DainPark-web)
+GraphKit is a project of [@Taeeun-Kim](https://github.com/Taeeun-Kim), [@maxRN](https://github.com/maxRN), [@DainPark-web](https://github.com/DainPark-web) and [@JM-del337](https://github.com/JM-del337)
