@@ -2,13 +2,10 @@
 
 A customView of Dotgraph templates available in Android.
 
-- [How To Use](#howToUse)
-- [gege]
+- [How To Use](#HowToUse)
 - [Contents](#contents)
 - [Contributing](#contributing)
-- [License](#license)
 - [Support](#support)
-- [Credits](#credits)
 
 <br/>
 
